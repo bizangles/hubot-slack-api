@@ -30,7 +30,8 @@ var apiCalls = ["api.test", "auth.test", "channels.archive", "channels.create", 
                 "groups.setPurpose", "groups.setTopic", "groups.unarchive", "im.close", "im.history", "im.list",
                 "im.mark", "im.open", "oauth.access", "rtm.start", "search.all", "search.files", "search.messages",
                 "stars.list", "team.accessLogs", "team.info", "users.getPresence", "users.info", "users.list",
-                "users.setActive", "users.setPresence"];
+                "users.setActive", "users.setPresence", "reactions.add", "reactions.get", "reactions.list",
+                "reactions.remove"];
 
 var postUrl = "https://slack.com/api/";
 
